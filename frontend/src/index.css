@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  background-color: rgb(24, 24, 24);
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+}
+.wrrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-elements {
+  margin-left: auto;
+  padding: 30px;
+}
+
+.wrapper-second {
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(21, 21, 21);
+}
